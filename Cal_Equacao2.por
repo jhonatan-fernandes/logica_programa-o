@@ -10,7 +10,7 @@ programa {
 		escreva ("Digite o valor de C= \n")
 		leia (c)
 		
-		valor1 = (b * b)
+		valor1 = (b * b) // aqui usa a formula para achar o valor de delta
 		valor2 = (a * c)
 		valor3 = (valor2 * -4)
 		valor4 = (valor1 + valor3)
@@ -18,12 +18,13 @@ programa {
 		d = (valor4)
 		
 		
-		valor5 = (-1 * b)
+		valor5 = (-1 * b) // aqui usa a formula de bhaskara para achar o valor de x1 e x2
 		raizq = mat.raiz (d, 2.0)
 		valor6 = (2 * a)
 		x1 = ( (valor5 + raizq) / valor6)  
 		x2 = ( (valor5 - raizq) / valor6)
-		escreva ("Valor de Delta= " + d + "\n")
+		
+		escreva ("Valor de Delta= " + d + "\n") //aqui imprimi os valores de delta,x1 e x2
 		escreva ("Valor de x1= " + x1 + "\n")
 		escreva ("Valor de x2= " + x2 + "\n")
 	}
