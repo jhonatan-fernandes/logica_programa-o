@@ -5,24 +5,24 @@ programa {
 		
 		escreva ("Digite o valor1: \n")
 		leia (valor1)
-		escreva ("Digite a operação: \n")
+		escreva ("Digite a operaï¿½ï¿½o: \n")
 		leia (oper)
 		escreva ("Digite valor2: \n")
 		leia (valor2)
 		
-		se (oper == "+") {
+		se (oper == "+") { //funcao para fazer uma soma
 		    resultado = (valor1 + valor2)
 		    escreva ("Resultado= " + resultado + "\n")
 		} senao {
-		    se (oper == "-") {
+		    se (oper == "-") { // funcao para fazer uma subtracao
 		        resultado = (valor1 - valor2)
 		        escreva ("Resultado= " + resultado + "\n")
 		    } senao {
-		        se (oper == "*") {
+		        se (oper == "*") { //funcao para fazer uma multiplicacao
 		            resultado = (valor1 * valor2)
 		            escreva ("Resultado= " + resultado + "\n")
 		    } senao {
-		        se (oper == "/") {
+		        se (oper == "/") { funcao para fazer uma divisao
 		            resultado = (valor1 / valor2)
 		            escreva ("Resultado= " + resultado + "\n")
 		        }
